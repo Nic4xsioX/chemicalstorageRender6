@@ -1,0 +1,5 @@
+build command : npm i express pg dotenv multer nodemailer pdfkit node-cron xlsx moment path
+run command : node server.js
+เเก้ไข เเก้ log เพิ่มบาร์โค้ด print บาร์โค้ด delete บาร์โค้ด
+
+อันนี้ upload ลง render เเล้ววว
