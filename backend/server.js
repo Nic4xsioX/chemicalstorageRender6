@@ -40,7 +40,7 @@ app.get("/", (req, res) => {
 app.get('/noti', (req, res) => {
   res.sendFile(path.join(__dirname, "../frontend/HTML/notification.html"));
 });
-app.get('/log', (req, res) => {
+app.get('/logdata', (req, res) => {
   res.sendFile(path.join(__dirname,  "../frontend/HTML/logdata.html"));
 });
 app.get('/home', (req, res) => {
@@ -49,8 +49,8 @@ app.get('/home', (req, res) => {
 app.get('/create_barcode.html', (req, res) => {
   res.sendFile(path.join(__dirname,  "../frontend/HTML/create_barcode.html"));
 });
-app.get('/print_barcode.html', (req, res) => {
-  res.sendFile(path.join(__dirname,  "../frontend/HTML/print_barcode.html"));
+app.get('/Print_barcode.html', (req, res) => {
+  res.sendFile(path.join(__dirname,  "../frontend/HTML/Print_barcode.html"));
 });
 
 
